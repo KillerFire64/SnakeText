@@ -84,6 +84,7 @@ void Snake::Print(void) {
   printf("\n");
 }
 
+// This is a recursive function
 int Snake::Collides(Segment *seg) {
   if (head == tail) {
     return 0;
