@@ -12,6 +12,7 @@ int moves(Snake *snake, int iter, int dir) {
   return dir;
 }
 
+//modif 2
 int main (void) {
   int dir = 1;
   int iter = 0;
