@@ -1,6 +1,9 @@
 #include <unistd.h>
 #include "snake.hpp"
 
+//Modification de test
+// some additional comments
+
 int moves(Snake *snake, int iter, int dir) {
   snake->Move(dir);
   if (iter % 3 == 0) {
